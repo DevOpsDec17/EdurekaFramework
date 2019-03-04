@@ -46,6 +46,7 @@ public class CommonElements implements ICommonElements {
 		element.sendKeys(textToWrite);
 	}
 
+	
 	@Override
 	public void clearText(WebElement element) throws Exception {
 		element.clear();
